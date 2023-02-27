@@ -1,0 +1,36 @@
+#div {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    /* "justify-content" s’occupe de l’axe horizontal, et "align-items" de l’axe vertical */
+}
+
+#background_rectangle {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+    /* Fond */
+    background: rgba(0, 255, 255, 0.466);
+    width: 50%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+#text_box {
+    padding: 1em;
+}
+
+form #message_input {
+    height: auto;
+    border-radius: 1em;
+    border: none;
+    justify-content: center;
+    padding: 1em 0.5em 0.5em 1em;
+}
+ 
+::placeholder {
+    text-align: center;
+    justify-self: center;
+    font-size: 50p;
+ }
