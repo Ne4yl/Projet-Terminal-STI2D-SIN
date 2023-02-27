@@ -11,25 +11,34 @@
 
 <body>
     
-    <!-- Rectangle fond -->
-    <div id="div">
+    <div id="block_container">
 
-        <div id="background_rectangle">
-            
-            <!-- Message envoyé -->
-                <form id="text_box" onsubmit="return get_message_input();">
- 
-                    <input type="text" id="message_input" placeholder="Message">
-                    <!-- <input type="submit" value="Submit"> -->
-                    
-                </form>
+        <div id="equipes_liste">
+
+            <div id="background_rect_equipes_liste">
+                <p>Liste Equipes + joueurs</p>
+            </div>
 
         </div>
 
-    </div>
+        <!-- Rectangle fond messagerie -->
+        <div id="messagerie">
 
+            <div id="background_rect_messagerie">
+                
+                    <!-- Message envoyé -->
+                    <form id="text_box" onsubmit="return get_message_input();">
+    
+                        <input type="text" id="message_input" placeholder="Message">
+                        <!-- <input type="submit" value="Submit"> -->
+                        
+                    </form>
 
-        
+            </div>
+
+        </div>
+
+    </div>  
 
 
 </body>

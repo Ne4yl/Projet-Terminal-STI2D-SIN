@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+}
+
+#block1 {
+    width: 40%;
+    height: 50px;
+    background-color: aqua;
+}
+
+#block2 {
+    width: 40%;
+    height: 60px;
+    background-color: rgb(194, 96, 15);
+}

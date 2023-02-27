@@ -1,18 +1,28 @@
-#div {
-    height: 90vh;
+body {
+    background-color: #2C2C2C;
+}
+
+#block_container {
     display: flex;
-    justify-content: center;
+}
+
+#messagerie {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0em 0em 0em 0.5em;
     /* "justify-content" s’occupe de l’axe horizontal, et "align-items" de l’axe vertical */
 }
 
-#background_rectangle {
+#background_rect_messagerie {
     display: flex;
     align-items: end;
     justify-content: end;
 
     /* Fond */
-    background: rgba(0, 255, 255, 0.466);
-    width: 50%;
+    background: #ACACAC;
+    width: 70%;
     height: 100%;
     border-radius: 1em;
 }
@@ -22,7 +32,6 @@
 }
 
 form #message_input {
-    height: auto;
     border-radius: 1em;
     border: none;
     justify-content: center;
@@ -31,6 +40,25 @@ form #message_input {
  
 ::placeholder {
     text-align: center;
-    justify-self: center;
-    font-size: 50p;
- }
+}
+
+#equipes_liste {
+    height: 90vh;
+    width: 30%;
+    /* "justify-content" s’occupe de l’axe horizontal, et "align-items" de l’axe vertical */
+}
+
+#background_rect_equipes_liste {
+    /* Fond */
+    background: #db6a6a;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#background_rect_equipes_liste p {
+    padding: 0em 0em 0em 1em;
+}
